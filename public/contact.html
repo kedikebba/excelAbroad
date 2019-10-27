@@ -109,7 +109,7 @@
 		          	<div class="icon">
 		          		<span class="icon-mobile-phone"></span>
 		          	</div>
-		            <p><span>Phone:</span> <a href="tel://18574175183">+1 857 417 5183</a></p>
+		            <p><span>Phone:</span> <a href="tel://17812409322">+1 781 240 9322</a></p>
 		          </div>
 		          <div class="col-md-4 text-center py-4">
 		          	<div class="icon">
@@ -125,19 +125,66 @@
           	<h2 class="text-center">If you got any questions <br>please do not hesitate to send us a message</h2>
             <form id="contact-form" action="/contact" class="bg-light p-5 contact-form" method="POST">
               <div class="form-group">
-                <input id="contactName" name="contactName" type="text" class="form-control" placeholder="Your Name">
+                <label for="firstName"><strong>Firstname</strong> </label>
+                <input id="firstName" name="firstName" type="text" class="form-control" placeholder="Enter First Name">
               </div>
               <div class="form-group">
-                <input id="contactEmail" name="contactEmail" type="text" class="form-control" placeholder="Your Email">
+                <label for="lastName"><strong>Lastname</strong> </label>
+                <input id="lastName" name="lastName" type="text" class="form-control" placeholder="Enter Last Name">
               </div>
               <div class="form-group">
-                <input id="contactSubject" name="contactSubject" type="text" class="form-control" placeholder="Mobile Number (Include Country Code ie, +1 234 567 8910)">
+                <label for="emailAddress"><strong>Email Address</strong> </label>
+                <input id="contactEmail" name="contactEmail" type="text" class="form-control" placeholder="Enter Your Email">
+              </div>
+               <div class="form-group">
+                <label for="countryOrigin"><strong>Country Of Origin </stong></label>
+                <input id="countryOrigin" name="countryOrigin" type="text" class="form-control" placeholder="Enter Your Country Of Origin">
+              </div>
+                <div class="form-group">
+                <label for="mobileNumber"><strong>Mobile Number </strong></label>
+                <input id="mobileNumber" name="mobileNumber" type="text" class="form-control" placeholder="Enter Your Mobile Number ie +1 234 567 8910">
+              </div>
+               <div class="form-group">
+                <label for="previousUniv"><strong>Previous University</strong></label>
+                <input id="previousUniv" name="previousUniv" type="text" class="form-control" placeholder="Enter Your Previous University">
+              </div>
+               <div class="form-group">
+                <label for="previousDegree"><strong>Previous Degree Program</strong>  </label>
+                <input id="previousDegree" name="previousDegree" type="text" class="form-control" placeholder="Enter Your Previous Degree Program">
+              </div>
+           
+               <div class="form-group">
+                <label for="gradYear"><strong>Year Of Graduation</strong> </label>
+                <input id="gradYear" name="gradYear" type="date" class="form-control" >
+              </div>
+
+              <div class="form-group">
+                <label for="desiredProgram"><strong>Desired Education Level </strong></label>
+                <br>
+                 <select id="educationLevels" name="educationLevels">
+                    <option value="nothing">Select One</option>
+                    <option value="Bachelors">Undergraduate</option>
+                    <option value="Masters">Masters</option>
+                    <option value="PhD">PhD</option>
+                    <option value="Other">Other</option>
+                 </select>
+              </div>
+
+               <div class="form-group">
+                <label for="desiredProgram"><strong>Desired Program</strong> </label>
+                <input id="desiredProgram" name="desiredProgram" type="text" class="form-control" placeholder="Enter Your Desired Program">
               </div>
               <div class="form-group">
-                <textarea name="contactTextArea" cols="30" rows="7" class="form-control" placeholder="Tell Us About Yourself & Your Desired Course."></textarea>
+                <label for="desiredCountry"><strong>Country Of Interest</strong> </label>
+                <input id="desiredCountry" name="desiredCountry" type="text" class="form-control" placeholder="Enter Where You Wish to Study From e.g USA, UK, Italy">
+              </div>
+          
+              <div class="form-group">
+                <label for="moreDetails"><strong>AnyOther Information</strong> </label>
+                <textarea name="contactTextArea" cols="30" rows="7" class="form-control" placeholder="Tell Us About Yourself."></textarea>
               </div>
               <div class="form-group">
-                <input type="submit" value="Send Message" class="btn btn-primary py-3 px-5">
+                <input type="submit" value="Submit" class="btn btn-primary py-3 px-5">
               </div>
             </form>
           

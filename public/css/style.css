@@ -9517,9 +9517,10 @@ textarea.form-control {
     background: linear-gradient(to right, #1566ad 0%, #1b9de3 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1566ad', endColorstr='#1b9de3', GradientType=1 ); }
 
-.appointment-form .form-group {
+.appointment-form .form-group  {
   position: relative;
   width: 100%;
+ 
   display: block; }
   .appointment-form .form-group .icon {
     position: absolute;
