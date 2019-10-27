@@ -48,8 +48,6 @@ app.post('/contact', function (req, res) {
       var contactTextArea = req.body.contactTextArea;
       var educationLevels = req.body.educationLevels;
 
-      console.log(educationLevels)
-
     let mailOptions = {
            from: {
                name: `${firstName} ${lastName} `,
