@@ -53,7 +53,7 @@ app.post('/contact', function (req, res) {
                name: `${firstName} ${lastName} `,
                address: contactEmail
            }, 
-           to: 'kebbakedi@gmail.com', 
+           to: 'info@excel-abroad.com', 
            subject: `${educationLevels} - ${desiredProgram}`,
            html: `
            <b> User Details</b> 
